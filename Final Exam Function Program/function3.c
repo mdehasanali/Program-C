@@ -11,12 +11,6 @@ float energy (float t){
 void display(float to,float co){
     printf("energy  total value :- %.2f \n\n",to);
     printf("energy total value :-%.2f\n\n",co);
-
-    if(co > 50){
-        printf("Great Impact");
-    }else {
-        printf("Good Start");
-    }
 }
 
 int main()

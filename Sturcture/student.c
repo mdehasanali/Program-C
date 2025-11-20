@@ -15,8 +15,14 @@ int main() {
     int sum[n];
 
     for (int i = 0; i < n; i++) {
-        printf("Roll Math Science English: ");
-        scanf("%d %d %d %d", &data[i].roll, &data[i].math, &data[i].science, &data[i].english);
+        printf("Student Roll Number ");
+        scanf("%d", &data[i].roll);
+        printf("Student Math Number ");
+        scanf("%d", &data[i].math);
+        printf("Student Science Number ");
+        scanf("%d", &data[i].science);
+        printf("Student english Number. ");
+        scanf("%d", &data[i].english);
     }
 
     for (int i = 0; i < n; i++) {

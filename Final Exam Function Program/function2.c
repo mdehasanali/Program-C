@@ -23,9 +23,7 @@ int main() {
     scanf("%f", &Ba);
     scanf("%f", &Co);
     scanf("%f", &Cl);
-
     float water = total(Ba, Co, Cl);
-	
     display(water);
 
     return 0;
